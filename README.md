@@ -1,6 +1,6 @@
 # E-Commerce FAQ Agent
 
-An intelligent agent built with LangChain that helps customers find products and answers their questions about an e-commerce platform. The agent uses natural language processing to understand user queries and provides relevant product recommendations and FAQ answers.
+An intelligent agent built with Google's Gemini that helps customers find products and answers their questions about an e-commerce platform. The agent uses natural language processing to understand user queries and provides relevant product recommendations and FAQ answers.
 
 ## Features
 
@@ -12,7 +12,7 @@ An intelligent agent built with LangChain that helps customers find products and
 ## Prerequisites
 
 - Python 3.8+
-- OpenAI API key
+- Google Gemini API key
 
 ## Setup
 
@@ -27,11 +27,11 @@ cd faq-agent
 pip install -r requirements.txt
 ```
 
-3. Set up your OpenAI API key:
-   - Replace the API key in `main.py` with your key
-   - Or set it as an environment variable:
-   ```bash
-   export OPENAI_API_KEY='your-api-key'
+3. Set up your Gemini API key:
+   - Create a `.env` file in the root directory
+   - Add your Gemini API key:
+   ```
+   GOOGLE_API_KEY='your-gemini-api-key'
    ```
 
 4. Prepare your data:
@@ -67,8 +67,7 @@ FAQ Questions:
 
 ## Technologies Used
 
-- LangChain for agent orchestration
-- OpenAI for natural language understanding
+- Google Gemini for natural language understanding
 - FAISS for vector similarity search
 - Streamlit for web interface
 - Pandas for data handling 
