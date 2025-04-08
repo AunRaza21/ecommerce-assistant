@@ -50,7 +50,6 @@ streamlit run app.py
 Product Search:
 - "Show me top-rated electronics under $500 in stock"
 - "What laptops are available under $1500?"
-- "Find accessories with rating above 4.5"
 
 FAQ Questions:
 - "What is your return policy?"
